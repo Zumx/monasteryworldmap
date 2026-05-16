@@ -1,0 +1,47 @@
+{
+  "name": "Monastery World Map",
+  "slug": "monasteryworldmap",
+  "emoji": "⛪",
+  "domain": "monasteryworldmap.vercel.app",
+  "colors": {
+    "primary": "#4a2c1a",
+    "accent": "#c9a227"
+  },
+  "osm": {
+    "key": "amenity",
+    "value": "monastery"
+  },
+  "osmFilters": [
+    {
+      "key": "amenity",
+      "value": "monastery"
+    }
+  ],
+  "includeRelations": false,
+  "dedupeMeters": 0,
+  "mappedNoun": "monasteries",
+  "unnamedLabel": "Unnamed monastery",
+  "metaFields": [
+    {
+      "key": "religion",
+      "label": "Religion"
+    },
+    {
+      "key": "denomination",
+      "label": "Denomination"
+    }
+  ],
+  "locales": [
+    "en"
+  ],
+  "defaultLocale": "en",
+  "namedOnly": false,
+  "includeFilter": null,
+  "dataSource": {
+    "type": "overpass"
+  },
+  "googlePlaces": {
+    "enabled": false,
+    "cap": 800
+  }
+}
