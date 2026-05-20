@@ -35,7 +35,10 @@
   ],
   "aboutText": null,
   "locales": [
-    "en"
+    "en",
+    "de",
+    "fr",
+    "it"
   ],
   "defaultLocale": "en",
   "namedOnly": false,
